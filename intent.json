@@ -1,0 +1,23 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","hey"],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "general help",
+     "patterns": ["General help", "I need assistance with general matters.", "Seeking aid with general inquiries.", "On the lookout for general assistance.", "In search of general support.", "Hunting for help with general issues.", "Exploring general help options.", "In need of assistance with general concerns.", "Scouring for general guidance.", "Open to general help suggestions.", "Requesting support for general matters."],
+     "responses": ["I can assist with that! Could you explain your question?"]
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?"],
+     "responses": ["You can call me sarthak.", "I'm sarthak!", "I'm sarthak aka python_is_pie."]
+    },
+    {"tag": "skills",
+     "patterns": ["hey what you know", "what is your special", "do you know how to code", "what is your skills"],
+     "responses": ["I have specialization in Deep Learning with android development", "i know tensorflow, python, Android Studio and many more"]
+    }
+]
+}
