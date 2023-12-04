@@ -1,23 +1,43 @@
 {"intents": [
     {"tag": "greeting",
      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","hey"],
-     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+     "responses": ["Hello!", "Hi there, how can I help?"]
     },
     {"tag": "goodbye",
-     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
-    },
-    {"tag": "general help",
-     "patterns": ["General help", "I need assistance with general matters.", "Seeking aid with general inquiries.", "On the lookout for general assistance.", "In search of general support.", "Hunting for help with general issues.", "Exploring general help options.", "In need of assistance with general concerns.", "Scouring for general guidance.", "Open to general help suggestions.", "Requesting support for general matters."],
-     "responses": ["I can assist with that! Could you explain your question?"]
+     "patterns": ["see ya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+     "responses": ["Talk to you later!", "Goodbye!"]
     },
     {"tag": "name",
      "patterns": ["what is your name", "what should I call you", "whats your name?"],
-     "responses": ["You can call me sarthak.", "I'm sarthak!", "I'm sarthak aka python_is_pie."]
+     "responses": ["You can call me Dibby!", "I'm Dibby, your friendly printing assistant!"]
     },
     {"tag": "skills",
      "patterns": ["hey what you know", "what is your special", "do you know how to code", "what is your skills"],
-     "responses": ["I have specialization in Deep Learning with android development", "i know tensorflow, python, Android Studio and many more"]
+     "responses": ["I can help you work through any printer errors you're experiencing!"]
+    },
+    {"tag": "general help",
+    "patterns": ["General help", "I need assistance with general matters.", "Seeking aid with general inquiries.", "On the lookout for general assistance.", "In search of general support.", "Hunting for help with general issues.", "Exploring general help options.", "In need of assistance with general concerns.", "Scouring for general guidance.", "Open to general help suggestions.", "Requesting support for general matters."],
+    "responses": ["I can assist with that! Could you explain your question?"]
+    },
+    {"tag": "specific issue",
+    "patterns": ["Specific Issue", "I need help with a specific issue", "Can you assist me with a particular problem?", "I could use some help on a specific matter", "I'm struggling with a certain issue", "I've got a particular issue that I need assistance with", "Particular problem", "Specific matter", "Mind giving me a hand with a particular issue that's bothering me?", "Specific thing"],
+    "responses": ["I can help with that! What's going wrong with your print? If you're in a rush, I can also guide you to a different printer."]
+    },
+    {"tag": "redirect me",
+    "patterns": ["Redirect Me", "Send me elsewhere", "Take me to a different printer", "Direct me to another printer", "I want to go to a different printer", "Is there a working printer I can go to?", "Is there another printer available?", "Is there a different printer option?", "Can you send me to a different printer?", "Point me to another printer", "Lead me to a new printer", "Help me find another printer"],
+    "responses": ["Of course! Dibner's IT help desk on the the third floor of 5 MetroTech is open from 10-8. They can help with troubleshooting. Otherwise, printer X has no reported issues- I suggest printing there instead!"]
+    },
+    {"tag": "which printer",
+    "patterns": ["Which printer am I using?", "How do I know what printer I'm currently using?", "Can you tell me which printer I'm using?", "Do you know what printer I'm working with?", "What's the printer I'm currently working with?", "Any idea which printer I'm using at the moment?", "Where do I see the printer I'm currently using?", "Help figure out what printer I'm using", "Which printer", "What printer"],
+    "responses": ["All printers have a big piece of paper on the front with a letter on it- this letter is the name of the printer you're using!"]
+    },
+    {"tag": "color printer",
+    "patterns": ["Which printer is color?", "How do I know what printer prints in color?", "Can you tell me which printer will print in color", "Where can I find the color printer?", "Where's the color printer?", "Any idea which printer prints in color?", "Where do I find the color printer?", "Does Dibner print color?", "Do all printers print in color?"],
+    "responses": ["Dibner has one color printer, labeled E! Turn left when you enter the main area of the 3rd floor of Dibner to find it!"]
+    },
+    {"tag": "zero balance",
+    "patterns": ["Printer says I have zero balance but I know I have money", "Claiming zero balance but I have money", "Declaring zero balance - I have money", "Printer says I have 0 balance but my account has money", "Display shows zero balance, my account is loaded", "Screens telling me I have no money but I do", "I have money but printer says I don't", "My account has money but display says it doesn't"],
+    "responses": ["I'm so sorry the printer display is stating you have a 0 balance even though you have money on your account! Please reupload your document to NYU Mobile Print and try printing again- this should fix the issue."]
     }
 ]
 }
